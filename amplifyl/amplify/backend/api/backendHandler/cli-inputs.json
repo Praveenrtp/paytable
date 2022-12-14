@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/": {
+      "name": "/",
+      "lambdaFunction": "getCoursesHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/course/{courseid}": {
+      "name": "/course/{courseid}",
+      "lambdaFunction": "amplifyl6d9334a4",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
